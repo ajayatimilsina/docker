@@ -1,5 +1,3 @@
-version: '3.9'  # Docker Compose version
-
 services:
   web:  # Name of the service (like a container)
     build: .  # Build the Docker image using the Dockerfile in the current directory
